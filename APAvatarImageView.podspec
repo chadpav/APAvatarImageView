@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'APAvatarImageView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of APAvatarImageView.'
+  s.summary          = 'A subclass on UIImageView that renders a users initials as a placeholder until an Avatar image is loaded.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+APAvatartImageView is a subclass on UIImageView. It will render a placeholder avatar image using a users initials. The default style looks like the iOS 10 iMessage avatar image.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/APAvatarImageView'
+  s.homepage         = 'https://github.com/chadpav/APAvatarImageView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Chad Pavliska' => 'chadpav@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/APAvatarImageView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/chadpav/APAvatarImageView.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/chadpav'
 
   s.ios.deployment_target = '8.0'
 
