@@ -1,9 +1,9 @@
 {
   "name": "APAvatarImageView",
   "version": "0.1.0",
-  "summary": "A short description of APAvatarImageView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/APAvatarImageView",
+  "summary": "A subclass on UIImageView that renders a users initials as a placeholder until an Avatar image is loaded.",
+  "description": "APAvatartImageView is a subclass on UIImageView. It will render a placeholder avatar image using a users initials. The default style looks like the iOS 10 iMessage avatar image.",
+  "homepage": "https://github.com/chadpav/APAvatarImageView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,9 +12,10 @@
     "Chad Pavliska": "chadpav@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/APAvatarImageView.git",
+    "git": "https://github.com/chadpav/APAvatarImageView.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/chadpav",
   "platforms": {
     "ios": "8.0"
   },

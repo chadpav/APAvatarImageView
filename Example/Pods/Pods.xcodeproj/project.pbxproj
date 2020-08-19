@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		3A31212FB165FD34602DA570811DA835 /* Pods-APAvatarImageView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 729E008576DF2B98876D28F37BD10271 /* Pods-APAvatarImageView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44DA2EC47794CD69C52E18DF2846066C /* Pods-APAvatarImageView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DA18D4F518BAA0BACC81ABC489B236 /* Pods-APAvatarImageView_Tests-dummy.m */; };
-		544FD57F0058B51821BF7A298E1C81E0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCFE397F9540A42610D5C9C9A0204F6 /* ReplaceMe.swift */; };
-		6F5A75900BD66BA59A8635C416634433 /* APAvatarImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C751C1CF00AEA28F6F7923D7D64909B3 /* APAvatarImageView-dummy.m */; };
 		7607DC731A2011C2D041A3D29B08936E /* APAvatarImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE58A2ECDEE09548A9CEABA263220FEA /* APAvatarImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF734136D5BFFB6850125B3D6868941C /* Pods-APAvatarImageView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BF508D0E3C2EBDC48864854D814100 /* Pods-APAvatarImageView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCB86926140D72DF504CC08296E1B3FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		D0ED269E9B6C352591B648B6B8BF5A0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DFDCD5823E492EC3791D1B3CF5CAFAF4 /* APAvatarImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C751C1CF00AEA28F6F7923D7D64909B3 /* APAvatarImageView-dummy.m */; };
 		E1F6EFA167A1A4C7504D7C0FE80043FA /* Pods-APAvatarImageView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7A9A6227F31A390267EC41295A5057 /* Pods-APAvatarImageView_Example-dummy.m */; };
 		ECB770E7858457B3556DBC8EEA1C3096 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FFE26912218CE1D41F9C027C4E7463F1 /* APAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F4B2D361B43201FE390734F413770 /* APAvatarImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,6 @@
 		20E2CF7B708DC134F4248FA7FDEAC58F /* Pods-APAvatarImageView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APAvatarImageView_Tests-resources.sh"; sourceTree = "<group>"; };
 		2417D55CDE4C78DD4F71381CB258E4B6 /* APAvatarImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APAvatarImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4035E6957FCA75F93ED0D3033E9EFAF0 /* Pods_APAvatarImageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APAvatarImageView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FCFE397F9540A42610D5C9C9A0204F6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		533BDEE9A6F043D074C191DFAD0A7851 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57AF9A7181D2D1E3E5A316E7057A2511 /* APAvatarImageView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = APAvatarImageView.modulemap; sourceTree = "<group>"; };
 		665E5B35FD917725F8F14FE11A2E725B /* Pods-APAvatarImageView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APAvatarImageView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -52,6 +51,7 @@
 		B6440904DBA7CA93C167D086CD8808B9 /* APAvatarImageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APAvatarImageView.xcconfig; sourceTree = "<group>"; };
 		B6A8E03C46D128034EF41BF52BB35450 /* Pods-APAvatarImageView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APAvatarImageView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C0FFC6BA309C893E05ED0A795C35ABFC /* Pods-APAvatarImageView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-APAvatarImageView_Example.modulemap"; sourceTree = "<group>"; };
+		C15F4B2D361B43201FE390734F413770 /* APAvatarImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APAvatarImageView.swift; sourceTree = "<group>"; };
 		C751C1CF00AEA28F6F7923D7D64909B3 /* APAvatarImageView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APAvatarImageView-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D142320381A855786D266E00AEC26E23 /* APAvatarImageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APAvatarImageView-prefix.pch"; sourceTree = "<group>"; };
@@ -110,6 +110,14 @@
 			path = "Target Support Files/Pods-APAvatarImageView_Example";
 			sourceTree = "<group>";
 		};
+		0D815B0B01C76B870D5F1D1BA8AF6F75 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C15F4B2D361B43201FE390734F413770 /* APAvatarImageView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		2EE2E7AD19BB52FA352C7874203E08EF /* APAvatarImageView */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,7 +153,7 @@
 		5EAD947087B73C3F311F8ADEE04EB262 /* APAvatarImageView */ = {
 			isa = PBXGroup;
 			children = (
-				8C350F8BD92D615702872B8985722D0D /* Classes */,
+				0D815B0B01C76B870D5F1D1BA8AF6F75 /* Classes */,
 			);
 			path = APAvatarImageView;
 			sourceTree = "<group>";
@@ -176,14 +184,6 @@
 				E0EFB8DA3C72FDAD60978B47C7BB4233 /* Pods-APAvatarImageView_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		8C350F8BD92D615702872B8985722D0D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				4FCFE397F9540A42610D5C9C9A0204F6 /* ReplaceMe.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -256,7 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78842BFABE6126F6BB98CC923206FB88 /* Build configuration list for PBXNativeTarget "APAvatarImageView" */;
 			buildPhases = (
-				252E81514E1A322FC699D02DAF915096 /* Sources */,
+				AF6F9EDA6FC97C512C7A015C60A4C89F /* Sources */,
 				C451971875E8D09AC09BCC701745CDE5 /* Frameworks */,
 				B3322AC9C1862954669F1F44D1462F47 /* Headers */,
 			);
@@ -312,14 +312,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					5ED10D7D75B43E626DC5E619198730EF = {
-						LastSwiftMigration = 0800;
-					};
-					8807E861B8414D680BF87D9BF0BF7EA5 = {
-						LastSwiftMigration = 0800;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -349,20 +341,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		252E81514E1A322FC699D02DAF915096 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F5A75900BD66BA59A8635C416634433 /* APAvatarImageView-dummy.m in Sources */,
-				544FD57F0058B51821BF7A298E1C81E0 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5A1ABF346D35D1EF7240010AE2748EA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E1F6EFA167A1A4C7504D7C0FE80043FA /* Pods-APAvatarImageView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6F9EDA6FC97C512C7A015C60A4C89F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDCD5823E492EC3791D1B3CF5CAFAF4 /* APAvatarImageView-dummy.m in Sources */,
+				FFE26912218CE1D41F9C027C4E7463F1 /* APAvatarImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,39 +405,6 @@
 			};
 			name = Release;
 		};
-		813A0652F6E927D1D0950F9E35F8A4A9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6440904DBA7CA93C167D086CD8808B9 /* APAvatarImageView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/APAvatarImageView/APAvatarImageView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/APAvatarImageView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/APAvatarImageView/APAvatarImageView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = APAvatarImageView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		8AB1B463A40CE29B7C19051AAC0B15C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9FD7AA8EB215A04C57C626EC93B5B941 /* Pods-APAvatarImageView_Example.debug.xcconfig */;
@@ -476,7 +435,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -596,14 +554,46 @@
 				PRODUCT_NAME = Pods_APAvatarImageView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		E89852E64E1EFC0B9A167D10BFF63E87 /* Release */ = {
+		E6E089F09C2712D906FA127F1734602F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6440904DBA7CA93C167D086CD8808B9 /* APAvatarImageView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/APAvatarImageView/APAvatarImageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APAvatarImageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/APAvatarImageView/APAvatarImageView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = APAvatarImageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F465C8A63FAB3BB609F32BC5031308A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B6440904DBA7CA93C167D086CD8808B9 /* APAvatarImageView.xcconfig */;
 			buildSettings = {
@@ -694,8 +684,8 @@
 		78842BFABE6126F6BB98CC923206FB88 /* Build configuration list for PBXNativeTarget "APAvatarImageView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				813A0652F6E927D1D0950F9E35F8A4A9 /* Debug */,
-				E89852E64E1EFC0B9A167D10BFF63E87 /* Release */,
+				E6E089F09C2712D906FA127F1734602F /* Debug */,
+				F465C8A63FAB3BB609F32BC5031308A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

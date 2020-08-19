@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import APAvatarImageView
 
 class ViewController: UIViewController {
+
+    @IBOutlet weak var avatarImageView: APAvatarImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        avatarImageView.fullName = "Chad Pavliska"
+        
     }
 
     override func didReceiveMemoryWarning() {
